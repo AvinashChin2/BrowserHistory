@@ -1,0 +1,53 @@
+.items-container {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 30px;
+  justify-content: space-between;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.time {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.apps {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.logo-image {
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+}
+.title {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  color: #475569;
+  margin-right: 15px;
+}
+.delete-container {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+}
+.delete {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.domain {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+  font-weight: 500;
+}
